@@ -1,0 +1,11 @@
+Write Tests
+Not Too many 
+Mostly Integration
+
+
+End to End with @Cypress 
+Integration & Unit with @bjest 
+static with @flowtype & @geteslint
+
+@jest [integration and unit test ]
+will also  be test runner 

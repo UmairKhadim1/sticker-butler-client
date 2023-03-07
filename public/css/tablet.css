@@ -1,0 +1,376 @@
+/* ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  ::placeholder {
+    font-size: 1em;
+  }
+  .simple-header {
+    padding-top: 2%;
+  }
+  .header-acc-text {
+    right: 85px;
+  }
+  .nav-items > div {
+    font-size: 1em;
+  }
+  .create-campaign-heading {
+    font-size: 1.3em !important;
+  }
+  .campaign-nav-item > div {
+    font-size: 0.7em;
+    padding: 6% 5%;
+  }
+  .account-active-view {
+    right: 25px;
+  }
+  .create-campaign-subheading {
+    /* margin: 10% 0; */
+    font-size: 1em;
+  }
+  .selected-dis-sec-two {
+    padding: 11% 4%;
+  }
+  .cc-filters-two {
+    padding: 33% 2%;
+  }
+  .cc-filters-three {
+    padding: 15% 2%;
+  }
+  .delete-btn {
+    margin-right: 5%;
+  }
+  .delete-campaign-content-btn,
+  .delete-design-content-btn {
+    font-size: 0.9em;
+    padding: 11% 9%;
+  }
+  .delete-segment-content-btn {
+    font-size: 1em;
+    padding: 9% 5%;
+  }
+  .save-btn {
+    margin-left: 5%;
+  }
+  .save-segment-content-btn {
+    font-size: 1em;
+    padding: 9% 8%;
+  }
+  .save-campaign-content-btn,
+  .save-design-content-btn {
+    font-size: 0.9em;
+    padding: 11% 12%;
+  }
+  .dis-sec-one {
+    width: 26%;
+  }
+  .dis-sec-two {
+    width: 35%;
+  }
+  .dis-sec-three {
+    width: 36%;
+  }
+  .discount-box-content,
+  .account-setting-tab,
+  .diabled-tab {
+    font-size: 0.8em;
+  }
+  .config-box {
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2%;
+  }
+  .create-campaign-heading {
+    font-size: 1.5em;
+  }
+  .create-campaign-return-address-content {
+    font-size: 0.9em;
+  }
+  .detail-campaign-subheading {
+    font-size: 1em;
+  }
+  .add-new-address-content-btn,
+  .add-new-campaign-content-btn,
+  .add-new-design-content-btn {
+    padding: 4% 7%;
+    font-size: 0.8em;
+  }
+  .add-campaign-name > input {
+    font-size: 0.8em;
+  }
+  .campaign-tad-digit-content {
+    font-size: 2.5em;
+    line-height: 1.5em;
+  }
+  .detail-campaign-tad-subheading,
+  .campaign-tad-discount-content {
+    font-size: 1.1em;
+  }
+  .orange-div-content,
+  .select-discount-tad {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .add-new-discount-code-content-btn {
+    padding: 4% 7%;
+  }
+  .tracking-and-discount-div-spacing {
+    padding: 3% 3%;
+  }
+  .configure-box-heading {
+    font-size: 1.2em;
+  }
+  .configure-box-content,
+  .account-setting-label,
+  .cardName {
+    font-size: 1em;
+  }
+  .coming-soon {
+    font-size: 1.2em;
+  }
+  .configure-single-campaign-div-spacing {
+    padding: 31.5% 3% !important;
+  }
+  .orange-div-configure-heading,
+  .account-setting-heading {
+    font-size: 1.1em;
+  }
+  .orange-div-configure-content,
+  .create-filter-error-div-content {
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+
+  .person-img-spacing {
+    padding-top: 45%;
+  }
+  /* campaign page */
+  .select-add-design-name {
+    font-size: 1.1em;
+  }
+  .select-add-design-date,
+  .select-add-design-sticker {
+    font-size: 0.9em;
+    margin-top: -10px;
+  }
+  /* page header */
+  .custom-select > div {
+    height: auto;
+    padding: 11% 3% 9% 8%;
+  }
+  .select-options,
+  .create-campaign-final-address,
+  .create-a-filter-btn-content,
+  .account-setting-label,
+  .account-setting-save-btn-content {
+    font-size: 0.9em;
+  }
+  .search-btn-spacing {
+    padding: 14% 9%;
+  }
+  .create-campaign-final-quantity-heading,
+  .create-campaign-final-returnAddr-heading {
+    font-size: 0.9em;
+  }
+  .fianlize-total-div-subPrice,
+  .fianlize-total-div-taxes,
+  .fianlize-total-div,
+  .fianlize-total-div-name {
+    font-size: 1.1em;
+  }
+  .finalize-total-value {
+    font-size: 1.5em;
+  }
+  .discount-content-finalize {
+    font-size: 1.5em;
+  }
+  .finalize-dis-sec > div > div > p.discount-box-digit.m-0 {
+    font-size: 2em;
+  }
+  .finalize-dis-sec-two-sapcing {
+    padding: 9% 2% 9% 10%;
+  }
+  .create-campaign-final-name,
+  .create-campaign-final-pricing-heading,
+  .segment-subheading,
+  .filter-customer-by,
+  .segment-data-overview {
+    font-size: 1em;
+  }
+  .create-campaign-subheading-spacing {
+    margin-bottom: 8%;
+  }
+  .range-td {
+    font-size: 0.8em !important;
+  }
+  /* auth pages */
+  .auth-logo {
+    width: 45%;
+  }
+  .auth-footer {
+    position: absolute;
+    bottom: 0;
+  }
+  .auth-footer > div > img {
+    width: 66%;
+  }
+  .auth-component {
+    margin-bottom: -5%;
+  }
+  .yourOrder-price,
+  .yourOrder-customer,
+  .edit-option,
+  .delete-option {
+    font-size: 0.7em;
+    line-height: 1em;
+  }
+  .yourOrder-name,
+  .segment-filters,
+  .your-filter,
+  .add-more-details-filter-by-customer,
+  .add-more-details-filter-path {
+    font-size: 0.8em;
+    line-height: 0.9em;
+  }
+  .yourOrder-date {
+    font-size: 0.7em;
+    line-height: 0.2em;
+  }
+  .custom-select-design > div {
+    padding: 6.5% 3% 4.5% 8%;
+  }
+  .csv-icon-width {
+    width: 41%;
+  }
+  .disabled-save-segment-content-btn {
+    padding: 10% 10%;
+    font-size: 0.9em;
+    line-height: 1.3em;
+  }
+  .import-segment,
+  .filter-selection-content,
+  .segment-customer-number {
+    font-size: 0.9em;
+  }
+  .save-filter-spacing {
+    padding: 8% 13%;
+  }
+  .upload_design {
+    font-size: 1.3em;
+  }
+  .upload_design_subheading {
+    font-size: 0.9em;
+  }
+  .cancel_upload_btn {
+    font-size: 0.9em !important;
+  }
+  .exact-matches {
+    font-size: 0.7em;
+  }
+  .your-filter-spacing {
+    margin: 0;
+    padding: 10% 0;
+  }
+  .create-filter-header-number-spacing {
+    padding-right: 6%;
+    margin-left: 2%;
+  }
+  .filter-creation-price > div > input {
+    font-size: 1em;
+    padding: 10px;
+  }
+  .create-filter-error-div-content,
+  .save-filter-content,
+  .cardData {
+    font-size: 0.8em;
+  }
+  input {
+    font-size: 1em !important;
+    padding: 12px !important;
+  }
+}
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  .selected-dis-sec-two {
+    padding: 10% 5%;
+  }
+  .config-content-box {
+    padding: 5% 3%;
+  }
+  .dis-sec-one {
+    width: 25%;
+  }
+  .dis-sec-two {
+    width: 36%;
+  }
+  .dis-sec-three {
+    width: 36%;
+  }
+  .config-box {
+    padding: 2% 2% 2% 2%;
+  }
+  .create-campaign-subheading {
+    font-size: 0.9em;
+  }
+  .delete-btn {
+    margin-right: 5%;
+  }
+  .delete-campaign-content-btn,
+  .delete-design-content-btn {
+    font-size: 0.9em;
+    padding: 11% 9%;
+  }
+  .save-btn {
+    margin-left: 5%;
+  }
+  .save-campaign-content-btn,
+  .save-design-content-btn {
+    font-size: 0.9em;
+    padding: 11% 12%;
+  }
+  .create-campaign-return-address-content {
+    font-size: 0.9em;
+  }
+  .create-campaign-heading {
+    font-size: 1.5em;
+  }
+  .create-campaign-return-address-content {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+}
+/* ipad pro */
+/* @media only screen and (min-device-width: 1366px) and (min-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-color: rgb(0, 255, 21);
+  }
+}
+@media all and (width: 1024px) and (height: 1366px) and (orientation: landscape) {
+  body {
+    background-color: aqua;
+  }
+} */
+
+@media only screen and (width: 1024px) and (height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* body {
+    background-color: rgb(0, 255, 21);
+  } */
+  .auth-footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -15%;
+    /* margin: 0 0 -11% 0; */
+  }
+  .account-setting-address-div-spacing,
+  .account-setting-billing-div-spacing {
+    height: 8vh !important;
+  }
+}
+
+/* Landscape */
+@media only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .auth-footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* body {
+    background-color: aqua;
+  } */
+}

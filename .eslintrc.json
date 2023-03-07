@@ -1,0 +1,49 @@
+// {
+//   "extends": ["next/core-web-vitals", "prettier"],
+//   "rules": {
+//     "react/no-unescaped-entities": "off",
+//     "@next/next/no-page-custom-font": "off"
+//   }
+// }
+
+{
+  "extends": [
+    "eslint:recommended",
+    "next",
+    //React Start
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    //React End
+    // "plugin:@next/next/recommended",
+    // "next/core-web-vitals",
+    "prettier"
+    // "plugin:@typescript-eslint/eslint-recommended",
+    // "plugin:@typescript-eslint/recommended"
+  ],
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+
+  "plugins": [
+    "@typescript-eslint",
+    //React Start
+    "react",
+    "react-hooks"
+    //React End
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    // "react-hooks/rules-of-hooks": "error",
+    // "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  }
+}
+
+// {
+//   "settings": {
+//     "react": {
+//       "version": "latest"
+//     }
+//   }
+// }

@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.development
+    environment:
+      NEXT_PUBLIC_API_URL: http://192.241.137.53/api/v1
+    ports:
+      - "3000:3000"
